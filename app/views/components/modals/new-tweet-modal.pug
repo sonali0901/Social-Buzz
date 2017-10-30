@@ -1,0 +1,10 @@
+.new-tweet.modal.fade
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+        h4.modal-title Create new post
+      .modal-body
+        form(method='post', action='/tweets')
+          textarea(type='text', name='body', placeholder='How are you feeling?', maxlength='140')
+          button.btn.new-tweet__button(type='submit') Post
