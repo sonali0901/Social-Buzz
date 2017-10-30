@@ -2,9 +2,9 @@
   "name": "nwitter",
   "description": "A twitter clone written with Node.js, Express, and MongoDB",
   "version": "2.0.0",
-  "repository": "https://github.com/vinitkumar/node-twitter",
+  "repository": "https://github.com/shilpir98r/Social-Buzz",
   "private": false,
-  "author": "Vinit Kumar <vinit1414.08@bitmesra.ac.in> (http://vinitkumar.me)",
+  "author": "Shilpi Roy ",
   "scripts": {
     "start": "node server.js",
     "test": "make test"
