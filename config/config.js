@@ -38,7 +38,7 @@ module.exports = {
     github: {
       clientID: clientID,
       clientSecret: clientSecret,
-      callbackURL: "http://nitter.herokuapp.com/auth/github/callback"
+      callbackURL: "http://agile-castle-42815.herokuapp.com/auth/github/callback"
     }
   }
 };
