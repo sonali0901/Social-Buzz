@@ -9,11 +9,12 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 mongoose.Promise = global.Promise;
-mongoose.connect(config.db, {
+/*mongoose.connect(config.db, {
   keepAlive: true,
   reconnectTries: Number.MAX_VALUE,
   useMongoClient: true
-});
+});*/
+mongoose.connect('mongodb://root:volvo76@ds039078.mongolab.com:39078/ntwitter');
 
 const models_path = __dirname+'/app/models';
 fs.readdirSync(models_path).forEach(file => {
